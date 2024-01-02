@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Life Progress</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="insertBirthDate">
+      <h1>Insert your birth date</h1>
+      <input type="date" id="birthDate" />
+      <button id="submit">Submit</button>
+    </div>
+    <div class="grid-container">
+      <div class="age cases">
+        <div class="un">
+          <h1>Age</h1>
+        </div>
+        <div class="deux">
+          <p>
+            <span id="AgeNum" class="bigNum">0</span
+            ><span id="AgeDec" class="smallNum">.44332457</span>
+          </p>
+        </div>
+      </div>
+      <div class="lifeProg cases">
+        <div class="un">
+          <h1>Life Progression</h1>
+        </div>
+        <div class="deux">
+          <p>
+            <span id="LifeProgNum" class="bigNum">0</span
+            ><span id="LifeProgDec" class="smallNum">.44332457</span>%
+          </p>
+        </div>
+        <div class="trois">
+          <div class="progress">
+            <div class="width" id="LifeProgBar"></div>
+          </div>
+        </div>
+      </div>
+      <div class="yearProg cases">
+        <div class="un">
+          <h1>Year Progression</h1>
+        </div>
+        <div class="deux">
+          <p>
+            <span id="YearProgNum" class="bigNum">0</span
+            ><span id="YearProgDec" class="smallNum">.44332457</span>%
+          </p>
+        </div>
+        <div class="trois">
+          <div class="progress">
+            <div class="width" id="YearProgBar"></div>
+          </div>
+        </div>
+      </div>
+      <div class="monthProg cases">
+        <div class="un">
+          <h1>Month Progression</h1>
+        </div>
+        <div class="deux">
+          <p>
+            <span id="MonthProgNum" class="bigNum">0</span
+            ><span id="MonthProgDec" class="smallNum">.44332457</span>%
+          </p>
+        </div>
+        <div class="trois">
+          <div class="progress">
+            <div class="width" id="MonthProgBar"></div>
+          </div>
+        </div>
+      </div>
+      <div class="weekProg cases">
+        <div class="un">
+          <h1>Week Progression</h1>
+        </div>
+        <div class="deux">
+          <p>
+            <span id="WeekProgNum" class="bigNum">0</span
+            ><span id="WeekProgDec" class="smallNum">.44332457</span>%
+          </p>
+        </div>
+        <div class="trois">
+          <div class="progress">
+            <div class="width" id="WeekProgBar"></div>
+          </div>
+        </div>
+      </div>
+      <div class="dayProg cases">
+        <div class="un">
+          <h1>Day Progression</h1>
+        </div>
+        <div class="deux">
+          <p>
+            <span id="DayProgNum" class="bigNum">0</span
+            ><span id="DayProgDec" class="smallNum">.44332457</span>%
+          </p>
+        </div>
+        <div class="trois">
+          <div class="progress">
+            <div class="width" id="DayProgBar"></div>
+          </div>
+        </div>
+      </div>
+      <div class="hourProg cases">
+        <div class="un">
+          <h1>Hour Progression</h1>
+        </div>
+        <div class="deux">
+          <p>
+            <span id="HourProgNum" class="bigNum">0</span
+            ><span id="HourProgDec" class="smallNum">.44332457</span>%
+          </p>
+        </div>
+        <div class="trois">
+          <div class="progress">
+            <div class="width" id="HourProgBar"></div>
+          </div>
+        </div>
+      </div>
+      <div class="minuteProg cases">
+        <div class="un">
+          <h1>Minute Progression</h1>
+        </div>
+        <div class="deux">
+          <p>
+            <span id="MinuteProgNum" class="bigNum">0</span
+            ><span id="MinuteProgDec" class="smallNum">.44332457</span>%
+          </p>
+        </div>
+        <div class="trois">
+          <div class="progress">
+            <div class="width" id="MinuteProgBar"></div>
+          </div>
+        </div>
+      </div>
+      <div class="secondProg cases">
+        <div class="un">
+          <h1>Second Progression</h1>
+        </div>
+        <div class="deux">
+          <p>
+            <span id="SecondProgNum" class="bigNum">0</span
+            ><span id="SecondProgDec" class="smallNum">.44332457</span>%
+          </p>
+        </div>
+        <div class="trois">
+          <div class="progress">
+            <div class="width" id="SecondProgBar"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pause">
+      <button id="pause">Pause</button>
+      <p class="update">Last Update : <span id="update"></span></p>
+      <p class="update">wich was <span id="timeSince">0</span> seconds ago.</p>
+      </div>
+    </div>
+  </body>
+</html>
